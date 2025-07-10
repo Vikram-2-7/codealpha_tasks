@@ -1,0 +1,12 @@
+asadmin start-domain
+
+asadmin stop-domain
+
+asadmin undeploy HotelReservationSystem
+
+asadmin deploy --force --contextroot /HotelReservationSystem --name HotelReservationSystem E:\PROJECTS\HotelReservationSystem\HotelReservationSystem.war
+
+javac -cp "C:\Needy\glassfish-7.0.25\glassfish7\glassfish\lib\*;C:\Needy\glassfish-7.0.25\glassfish7\glassfish\modules\*" -d WEB-INF/classes frontend/pages/reserve/DBUtil.java frontend/pages/reserve/BookingServlet.java
+
+
+jar -cvf HotelReservationSystem.war *

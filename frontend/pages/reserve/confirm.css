@@ -1,0 +1,5 @@
+body { font-family: 'Poppins', sans-serif; background: #f0f8ff; }
+.card { background: #fff; border-radius: 12px; padding:20px; border:1px solid #dee2e6; }
+h2 { font-weight: 600; }
+p { font-size:1.1rem; margin-bottom:0.5rem; }
+.btn-primary { border-radius:25px; padding:0.5rem 1.5rem; }
